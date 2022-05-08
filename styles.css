@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+* {
+  margin: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background-image: url(/images/bg-hero-mobile.svg);
+  background-repeat: no-repeat;
+  background-color: hsl(193, 100%, 96%);
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+}
+.w400 {
+  font-weight: 400;
+}
+.w700 {
+  font-weight: 700;
+}
+.btn:hover {
+  color: hsl(208, 11%, 55%);
+}
+.btn1:hover {
+  background-color: hsl(322, 82%, 76%);
+}
+.bg-pink {
+  background-color: hsl(322, 100%, 66%);
+}
+
+.sdx {
+  box-shadow: 0px 0px 5px 2px rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+.grayish-blue {
+  color: hsl(208, 11%, 55%);
+}
+.bg-dark-cyan {
+  background-color: hsl(192, 100%, 9%);
+}
+.boxbox {
+  border-radius: 999px;
+  border: 2px solid #ffff;
+  padding: 4px;
+}
+.boxbox:hover {
+  border: 1px solid hsl(322, 100%, 66%);
+  fill: hsl(322, 100%, 66%);
+}
+.svg:hover {
+  fill: hsl(322, 100%, 66%);
+}
+@media (min-width: 768px) {
+  body {
+    background-image: url(/images/bg-hero-desktop.svg);
+    background-repeat: no-repeat;
+
+    background-color: hsl(193, 100%, 96%);
+  }
+}
